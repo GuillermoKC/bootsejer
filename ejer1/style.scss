@@ -1,0 +1,45 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@include media-breakpoint-only(xxl) { 
+    .container-fluid{
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+    }
+ }
+ @include media-breakpoint-only(xl) { 
+    .container-fluid{
+        background-color: green;
+        width: 100vw;
+        height: 100vh;
+    }
+ }
+ @include media-breakpoint-only(lg) { 
+    .container-fluid{
+        background-color: violet;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+ }
+ @include media-breakpoint-only(md) { 
+    .container-fluid{
+        background-color: salmon;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@include media-breakpoint-only(sm) { 
+    .container-fluid{
+        background-color: seagreen;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@include media-breakpoint-only(xs) { 
+    .container-fluid{
+        background-color: lawngreen;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
